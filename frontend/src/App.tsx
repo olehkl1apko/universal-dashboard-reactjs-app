@@ -1,5 +1,7 @@
+import "./styles/global.scss";
+
 function App() {
-  return <div>Hello</div>;
+  return <main>Hello</main>;
 }
 
 export default App;
