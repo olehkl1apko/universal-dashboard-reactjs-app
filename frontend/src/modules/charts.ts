@@ -131,3 +131,88 @@ export const visitsData: IBarData = {
     },
   ],
 };
+
+export interface ILineData {
+  color: string;
+  icon: string;
+  title: string;
+  dataKey: string;
+  number: number | string;
+  percentage: number;
+  chartData: {
+    name: string;
+    value: number;
+  }[];
+}
+
+export const usersData: ILineData = {
+  color: "#8884d8",
+  icon: "/userIcon.svg",
+  title: "Total Users",
+  number: "11.238",
+  dataKey: "value",
+  percentage: 45,
+  chartData: [
+    { name: "Sun", value: 400 },
+    { name: "Mon", value: 600 },
+    { name: "Tue", value: 500 },
+    { name: "Wed", value: 700 },
+    { name: "Thu", value: 400 },
+    { name: "Fri", value: 500 },
+    { name: "Sat", value: 450 },
+  ],
+};
+
+export const productsData: ILineData = {
+  color: "skyblue",
+  icon: "/productIcon.svg",
+  title: "Total Products",
+  number: "238",
+  dataKey: "value",
+  percentage: 21,
+  chartData: [
+    { name: "Sun", value: 400 },
+    { name: "Mon", value: 600 },
+    { name: "Tue", value: 500 },
+    { name: "Wed", value: 700 },
+    { name: "Thu", value: 400 },
+    { name: "Fri", value: 500 },
+    { name: "Sat", value: 450 },
+  ],
+};
+
+export const totalRevenueData: ILineData = {
+  color: "teal",
+  icon: "/revenueIcon.svg",
+  title: "Total Revenue",
+  number: "$56.432",
+  dataKey: "value",
+  percentage: -12,
+  chartData: [
+    { name: "Sun", value: 400 },
+    { name: "Mon", value: 600 },
+    { name: "Tue", value: 500 },
+    { name: "Wed", value: 700 },
+    { name: "Thu", value: 400 },
+    { name: "Fri", value: 500 },
+    { name: "Sat", value: 450 },
+  ],
+};
+
+export const conversionData: ILineData = {
+  color: "gold",
+  icon: "/conversionIcon.svg",
+  title: "Total Ratio",
+  number: "2.6",
+  dataKey: "value",
+  percentage: 12,
+  chartData: [
+    { name: "Sun", value: 400 },
+    { name: "Mon", value: 600 },
+    { name: "Tue", value: 500 },
+    { name: "Wed", value: 700 },
+    { name: "Thu", value: 400 },
+    { name: "Fri", value: 500 },
+    { name: "Sat", value: 450 },
+  ],
+};

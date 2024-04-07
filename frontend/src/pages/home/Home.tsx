@@ -1,15 +1,36 @@
 import "./home.scss";
-import { areaData, revenueData, salesLeaders, visitsData } from "../../modules";
-import { BarGraph, AreaGraph } from "../../components/charts";
+import {
+  areaData,
+  revenueData,
+  salesLeaders,
+  visitsData,
+  usersData,
+  productsData,
+  totalRevenueData,
+  conversionData,
+} from "../../modules";
+import { BarGraph, AreaGraph, LineGraph } from "../../components/charts";
 import { SalesLeaders } from "../../components";
 
 const Home = () => {
   return (
     <div className="home">
-      <div className="box top-box">
+      <div className="box sales-leaders">
         <SalesLeaders data={salesLeaders} />
       </div>
-      <div className="box box7">
+      <div className="box">
+        <LineGraph data={usersData} />
+      </div>
+      <div className="box">
+        <LineGraph data={productsData} />
+      </div>
+      <div className="box">
+        <LineGraph data={totalRevenueData} />
+      </div>
+      <div className="box">
+        <LineGraph data={conversionData} />
+      </div>
+      <div className="box area">
         <AreaGraph areaData={areaData} />
       </div>
       <div className="box">
