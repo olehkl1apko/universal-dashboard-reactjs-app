@@ -8,8 +8,14 @@ import {
   productsData,
   totalRevenueData,
   conversionData,
+  pieData,
 } from "../../modules";
-import { BarGraph, AreaGraph, LineGraph } from "../../components/charts";
+import {
+  BarGraph,
+  AreaGraph,
+  LineGraph,
+  PieGraph,
+} from "../../components/charts";
 import { SalesLeaders } from "../../components";
 
 const Home = () => {
@@ -23,6 +29,9 @@ const Home = () => {
       </div>
       <div className="box">
         <LineGraph data={productsData} />
+      </div>
+      <div className="box pie">
+        <PieGraph pieData={pieData} />
       </div>
       <div className="box">
         <LineGraph data={totalRevenueData} />

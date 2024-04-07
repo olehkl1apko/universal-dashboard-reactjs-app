@@ -11,6 +11,8 @@ import {
   productsData,
   totalRevenueData,
   conversionData,
+  pieData,
+  IPieData,
 } from "./charts";
 
 export {
@@ -23,5 +25,6 @@ export {
   productsData,
   totalRevenueData,
   conversionData,
+  pieData,
 };
-export type { IAreaData, IBarData, ISalesLeader, ILineData };
+export type { IAreaData, IBarData, ISalesLeader, ILineData, IPieData };
