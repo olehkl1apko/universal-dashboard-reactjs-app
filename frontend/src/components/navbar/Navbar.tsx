@@ -21,7 +21,6 @@ const Navbar = () => {
           <img src="user.jpg" alt="" />
           <span>Oleh Kliapko</span>
         </div>
-        <img src="/settings.svg" alt="" className="icon" />
       </div>
     </div>
   );
