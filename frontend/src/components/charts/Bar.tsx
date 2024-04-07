@@ -1,4 +1,4 @@
-import { Bar, BarChart, ResponsiveContainer, Tooltip } from "recharts";
+import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis } from "recharts";
 
 import "./styles.scss";
 import { IBarData } from "../../modules";
@@ -24,6 +24,7 @@ const BarGraph = (props: Props) => {
               cursor={{ fill: "none" }}
             />
             <Bar dataKey={dataKey} fill={color} />
+            <XAxis dataKey="name" fontSize={12} />
           </BarChart>
         </ResponsiveContainer>
       </div>

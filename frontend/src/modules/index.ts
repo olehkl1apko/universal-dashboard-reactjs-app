@@ -1,3 +1,4 @@
+import { ISalesLeader, salesLeaders } from "./salesLeaders";
 import { menu } from "./menu";
 import {
   IAreaData,
@@ -7,5 +8,5 @@ import {
   visitsData,
 } from "./charts";
 
-export { menu, areaData, revenueData, visitsData };
-export type { IAreaData, IBarData };
+export { menu, areaData, revenueData, visitsData, salesLeaders };
+export type { IAreaData, IBarData, ISalesLeader };
