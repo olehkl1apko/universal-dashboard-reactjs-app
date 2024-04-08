@@ -123,13 +123,13 @@ export const descriptionProduct: IDescription = {
 
 export const descriptionUser: IDescription = {
   id: 1,
-  title: "Petro Zagrava",
-  img: "https://images.pexels.com/photos/17397364/pexels-photo-17397364.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+  title: "Oleh Kliapko",
+  img: "/user.jpg",
   info: {
-    username: "Petrozagrava",
-    fullname: "Petro Zagrava",
-    email: "Petro-zagrava@gmail.com",
-    phone: "067 090 88 77",
+    username: "Bayraktar",
+    fullname: "Oleh Kliapko",
+    email: "gold@gmail.com",
+    phone: "067 XXX 88 77",
     status: "verified",
   },
   chart: {
@@ -177,27 +177,27 @@ export const descriptionUser: IDescription = {
   },
   activities: [
     {
-      text: "Petro Zagrava purchased Playstation 5 Digital Edition",
+      text: "Bayraktar purchased Playstation 5 Digital Edition",
       time: "3 day ago",
     },
     {
-      text: "Petro Zagrava added 3 items into their wishlist",
+      text: "Bayraktar added 3 items into their wishlist",
       time: "1 week ago",
     },
     {
-      text: "Petro Zagrava purchased Sony Bravia KD-32w800",
+      text: "Bayraktar purchased Sony Bravia KD-32w800",
       time: "2 weeks ago",
     },
     {
-      text: "Petro Zagrava reviewed a product",
+      text: "Bayraktar reviewed a product",
       time: "1 month ago",
     },
     {
-      text: "Petro Zagrava added 1 items into their wishlist",
+      text: "Bayraktar added 1 items into their wishlist",
       time: "1 month ago",
     },
     {
-      text: "Petro Zagrava reviewed a product",
+      text: "Bayraktar reviewed a product",
       time: "2 months ago",
     },
   ],

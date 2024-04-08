@@ -1,7 +1,7 @@
 import { UpdateSoon } from "../../features/UpdateSoon";
 
-const Login = () => {
+const Backups = () => {
   return <UpdateSoon />;
 };
 
-export default Login;
+export default Backups;
