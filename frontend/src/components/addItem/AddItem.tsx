@@ -45,14 +45,36 @@ const AddItem = (props: Props) => {
       formDataObject[key] = value;
     });
     formDataObject.id = Math.floor(Math.random() * 10000);
-    formDataObject.inStock = true;
 
-    console.log(`Product ${formDataObject.title} was added in the stock`);
+    switch (props.slug) {
+      case "product":
+        formDataObject.inStock = true;
+        console.log(`Product ${formDataObject.title} was added in the stock`);
+        break;
+
+      case "user":
+        formDataObject.verified = true;
+        console.log(
+          `User ${formDataObject.firstName} ${formDataObject.lastName} was added`
+        );
+        break;
+
+      default:
+        break;
+    }
 
     //add new item
     // mutation.mutate();
     props.setOpen(false);
   };
+
+  const filteredColumns = props.columns.filter(
+    (item) =>
+      item.field !== "id" &&
+      item.field !== "img" &&
+      item.field !== "inStock" &&
+      item.field !== "verified"
+  );
 
   return (
     <div className="add">
@@ -62,23 +84,16 @@ const AddItem = (props: Props) => {
         </span>
         <h1>Add new {props.slug}</h1>
         <form onSubmit={handleSubmit}>
-          {props.columns
-            .filter(
-              (item) =>
-                item.field !== "id" &&
-                item.field !== "img" &&
-                item.field !== "inStock"
-            )
-            .map((column) => (
-              <div className="item" key={column.headerName}>
-                <label>{column.headerName}</label>
-                <input
-                  type={column.type}
-                  name={column.field}
-                  placeholder={column.field}
-                />
-              </div>
-            ))}
+          {filteredColumns.map((column) => (
+            <div className="item" key={column.headerName}>
+              <label>{column.headerName}</label>
+              <input
+                type={column.type}
+                name={column.field}
+                placeholder={column.field}
+              />
+            </div>
+          ))}
           <button>Send</button>
         </form>
       </div>
