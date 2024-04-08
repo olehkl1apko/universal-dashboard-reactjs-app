@@ -120,8 +120,8 @@ export const menu: IMenu[] = [
       },
       {
         id: 2,
-        title: "Logs",
-        url: "/logs",
+        title: "Journal",
+        url: "/journal",
         icon: "log.svg",
       },
     ],

@@ -19,7 +19,7 @@ import Calendar from "./pages/calendar/Calendar";
 import Settings from "./pages/settings/Settings";
 import Backups from "./pages/backups/Backups";
 import Charts from "./pages/charts/Charts";
-import Logs from "./pages/logs/Logs";
+import Journal from "./pages/journal/Journal";
 
 function App() {
   const router = createBrowserRouter([
@@ -92,8 +92,8 @@ function App() {
           element: <Charts />,
         },
         {
-          path: "/logs",
-          element: <Logs />,
+          path: "/journal",
+          element: <Journal />,
         },
       ],
     },
