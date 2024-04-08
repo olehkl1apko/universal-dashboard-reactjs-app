@@ -15,6 +15,7 @@ import {
   IPieData,
 } from "./charts";
 import { productsColumns, productListData, IProduct } from "./products";
+import { usersColumns, userListData, IUser } from "./users";
 
 export {
   menu,
@@ -29,6 +30,8 @@ export {
   pieData,
   productsColumns,
   productListData,
+  usersColumns,
+  userListData,
 };
 export type {
   IAreaData,
@@ -37,4 +40,5 @@ export type {
   ILineData,
   IPieData,
   IProduct,
+  IUser,
 };
