@@ -1,3 +1,8 @@
+import {
+  IDescription,
+  descriptionUser,
+  descriptionProduct,
+} from "./descriptionItem";
 import { ISalesLeader, salesLeaders } from "./salesLeaders";
 import { menu } from "./menu";
 import {
@@ -32,6 +37,8 @@ export {
   productListData,
   usersColumns,
   userListData,
+  descriptionProduct,
+  descriptionUser,
 };
 export type {
   IAreaData,
@@ -41,4 +48,5 @@ export type {
   IPieData,
   IProduct,
   IUser,
+  IDescription,
 };

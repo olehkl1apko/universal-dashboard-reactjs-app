@@ -1,7 +1,10 @@
-import React from "react";
+import { DescriptionItem } from "../../components";
+import { descriptionProduct } from "../../modules";
 
 const Product = () => {
-  return <div>Product</div>;
+  //Using API - fetch data and send to DescriptionItem
+
+  return <DescriptionItem data={descriptionProduct} />;
 };
 
 export default Product;

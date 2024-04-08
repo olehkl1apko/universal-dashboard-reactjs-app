@@ -5,3 +5,4 @@ export { default as Footer } from "./footer/Footer";
 export { default as SalesLeaders } from "./salesLeaders/SalesLeaders";
 export { default as AddItem } from "./addItem/AddItem";
 export { default as DataTable } from "./dataTable/DataTable";
+export { default as DescriptionItem } from "./descriptionItem/DescriptionItem";

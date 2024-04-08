@@ -67,7 +67,7 @@ export const productListData: IProduct[] = [
     color: "white",
     producer: "Sony",
     price: "$250.99",
-    createdAt: "01.02.2023",
+    createdAt: "01.04.2024",
     inStock: true,
   },
   {
@@ -77,7 +77,7 @@ export const productListData: IProduct[] = [
     color: "black",
     producer: "Dell",
     price: "$499.99",
-    createdAt: "01.02.2023",
+    createdAt: "01.04.2024",
     inStock: true,
   },
   {
@@ -87,7 +87,7 @@ export const productListData: IProduct[] = [
     color: "gray",
     producer: "Samsung",
     price: "$999.49",
-    createdAt: "01.02.2023",
+    createdAt: "01.04.2024",
     inStock: true,
   },
   {
@@ -97,7 +97,7 @@ export const productListData: IProduct[] = [
     color: "white",
     producer: "Apple",
     price: "$799.49",
-    createdAt: "01.02.2023",
+    createdAt: "01.04.2024",
     inStock: true,
   },
   {
@@ -107,7 +107,7 @@ export const productListData: IProduct[] = [
     color: "rainbow",
     producer: "Philips",
     price: "$39.99",
-    createdAt: "01.02.2023",
+    createdAt: "01.04.2024",
   },
   {
     id: 6,
@@ -116,7 +116,7 @@ export const productListData: IProduct[] = [
     color: "black",
     producer: "Logitech",
     price: "$59.49",
-    createdAt: "01.02.2023",
+    createdAt: "01.04.2024",
     inStock: true,
   },
   {
@@ -126,7 +126,7 @@ export const productListData: IProduct[] = [
     color: "gray",
     producer: "Rode",
     price: "$119.49",
-    createdAt: "01.02.2023",
+    createdAt: "01.04.2024",
   },
   {
     id: 8,
@@ -135,7 +135,7 @@ export const productListData: IProduct[] = [
     color: "white",
     producer: "Toshiba",
     price: "$899.99",
-    createdAt: "01.02.2023",
+    createdAt: "01.04.2024",
     inStock: true,
   },
   {
@@ -145,7 +145,7 @@ export const productListData: IProduct[] = [
     color: "black",
     producer: "Sony",
     price: "$970.49",
-    createdAt: "01.02.2023",
+    createdAt: "01.04.2024",
   },
   {
     id: 10,
@@ -154,7 +154,7 @@ export const productListData: IProduct[] = [
     color: "black",
     producer: "Acer",
     price: "$599.99",
-    createdAt: "01.02.2023",
+    createdAt: "01.04.2024",
     inStock: true,
   },
 ];

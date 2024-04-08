@@ -1,7 +1,10 @@
-import React from "react";
+import { DescriptionItem } from "../../components";
+import { descriptionUser } from "../../modules";
 
 const User = () => {
-  return <div>User</div>;
+  //Using API - fetch data and send to DescriptionItem
+
+  return <DescriptionItem data={descriptionUser} />;
 };
 
 export default User;
